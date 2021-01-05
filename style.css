@@ -1,0 +1,53 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #3E3E3E;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 16px;
+}
+.link_button{
+    text-decoration: none;
+    background-image: linear-gradient(#FF8367, #f0694b);
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: #fff;
+}
+/* header  */
+ul{
+    list-style: none;
+    text-align: right;
+    margin-right: 8%;
+    padding: 20px 0;
+}
+ul li{
+    display: inline;
+   
+}
+ul li a{
+    text-decoration: none;
+    margin: 8px;
+    color: #3C3C3C;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* hero section  */
+
+.hero_half{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.hero_half img{
+    width: 100%;
+}
+.hero_title{
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+    color: #FF8367;
+}
