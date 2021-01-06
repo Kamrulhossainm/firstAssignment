@@ -24,9 +24,14 @@ p{
 }
 .link_button a{
     text-decoration: none;
-    background-image: linear-gradient(#FF8367, #f0694b);
+    /* background-image: linear-gradient(#FF8367, #f0694b); */
+    border: 2px solid #f0694b;
     padding: 15px 20px;
     border-radius: 3px;
+    color: #f0694b;
+}
+.link_button a:hover{
+    background-color: #f0694b;
     color: #fff;
 }
 section{
